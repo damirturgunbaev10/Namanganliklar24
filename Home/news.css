@@ -1,0 +1,694 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.intro {
+  width: 100%;
+  height: 362px;
+  background-color: #f6f6f9;
+}
+
+.hr1 {
+  width: 100%;
+  height: 4px;
+  background-color: #295093;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 1400px;
+  margin: auto;
+
+  margin-top: 40px;
+}
+
+.logo {
+  width: 306px;
+  height: 33px;
+
+  margin-right: 20px;
+}
+
+.rates {
+  display: flex;
+  gap: 15px;
+  font-size: 14px;
+  color: #1d3b7c;
+  margin-right: auto;
+}
+
+.rate {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #7a7a7a;
+}
+
+.currency {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #285193;
+}
+
+.tg_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  width: 146px;
+  height: 40px;
+  background: linear-gradient(90deg, #1e96c8 15.07%, #37aee2 85.96%);
+  border-radius: 5px;
+  border: none;
+}
+
+.tg_btn_link {
+  text-decoration: none;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+.options {
+  width: 1400px;
+  height: 70px;
+  margin: auto;
+  background-color: #fff;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.categories {
+  text-decoration: none;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+  color: #515151;
+}
+
+.categories:hover{
+  color:#000000;
+}
+
+.banner {
+  width: 1400px;
+  margin: auto;
+  margin-top: 16px;
+}
+
+.banner_img {
+  width: 1400px;
+}
+
+.covid-19 {
+  width: 1400px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  background-color: #f6f6f9;
+  margin-top: 20px;
+
+  border-radius: 10px;
+}
+
+.virus {
+  display: flex;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.covid_text {
+  margin-left: 25px;
+}
+
+.sick {
+  display: flex;
+}
+
+.sick_img {
+  width: 40px;
+  height: 40px;
+}
+
+.sick_text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #db0000;
+}
+
+.sick_subtitle {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #000000;
+}
+
+.healthy {
+  display: flex;
+}
+
+.healthy_img {
+  width: 40px;
+  height: 40px;
+}
+
+.healthy_text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #05b135;
+}
+
+.healthy_subtitle {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.died {
+  display: flex;
+}
+
+.died_img {
+  width: 40px;
+  height: 40px;
+}
+
+.died_text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.died_subtitle {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.virus_text {
+  margin-left: 18px;
+}
+
+.main_news {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  width: 1400px;
+  height: 630px;
+
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.president_img {
+  width: 453px;
+}
+
+.karantin_img {
+  width: 453px;
+}
+
+.sardoba_img {
+  width: 453px;
+}
+
+.prokuror_img {
+  width: 453px;
+}
+
+.tez_yordam_img {
+  width: 453px;
+}
+
+.stop_karantin_img {
+  width: 453px;
+}
+
+.news_title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #202020;
+  margin-top: 10px;
+}
+
+.news_sbt {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6b6d97;
+  margin-top: 10px;
+}
+
+.ntf_banner {
+  width: 1400px;
+  height: 91px;
+  margin: auto;
+  background: rgba(239, 186, 84, 0.18);
+  border-radius: 5px;
+
+  margin-top: 40px;
+}
+
+.ntf_banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ntf_left {
+  display: flex;
+  align-items: center;
+}
+
+.nft_text {
+  margin-left: 16px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.bell_icon {
+  width: 36px;
+  height: 40px;
+}
+
+.ntf_btn {
+  width: 300px;
+  height: 55px;
+  margin-left: 140px;
+  background: linear-gradient(
+    90deg,
+    #fe5c28 0%,
+    rgba(255, 139, 54, 0.9) 88.43%
+  );
+  border-radius: 5px;
+  border: none;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.latest_news {
+  width: 1400px;
+  height: 1200px;
+
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+}
+
+.latest_news_left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 913px;
+  height: 1200px;
+}
+
+.latest_news_title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.news2 {
+  display: flex;
+  align-items: center;
+  width: 913px;
+  height: 143px;
+
+  margin-top: 15px;
+}
+
+.news2_rigth {
+  margin-left: 20px;
+}
+
+.news2_rigth_title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #202020;
+}
+
+.news2_rigth_text {
+  margin-top: 8px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #434343;
+}
+
+.news2_rigth_sbt {
+  display: flex;
+  margin-top: 10px;
+}
+
+.date {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #7688a4;
+}
+
+.news2_btn {
+  width: 246px;
+  height: 50px;
+  margin: auto;
+  background: #295093;
+  border-radius: 5px;
+  border: none;
+
+  margin-top: 15px;
+}
+
+.news2_btn_linl {
+  text-decoration: none;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.news2_btn:hover {
+  background-color: #000000;
+}
+
+.latest_news_right {
+  width: 450px;
+  height: 542px;
+
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f6f9;
+  margin-left: 34px;
+}
+
+.popular_news_name {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #202020;
+}
+
+.popular_news_title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #202020;
+  margin-top: 6px;
+}
+
+.popular_news_sbt {
+  margin-top: 11px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #7688a4;
+}
+
+.popular_news_name {
+  margin-top: 18px;
+  margin-bottom: 9px;
+  margin-left: 33px;
+}
+
+.line {
+  width: 380px;
+  height: 4px;
+  margin: auto;
+  background-color: #e4e4e4;
+  border-radius: 3px;
+  border: none;
+  margin-top: 14px;
+  margin-bottom: 18px;
+}
+
+.sardoba_news {
+  margin-left: 35px;
+}
+
+.bottom_part {
+  width: 450px;
+  height: 556px;
+
+  margin-top: 50px;
+}
+
+.ucell {
+  width: 450px;
+  height: 556px;
+}
+
+.downland_app {
+  margin: auto;
+  margin-top: 20px;
+  width: 1400px;
+  height: 214px;
+
+  background: #f6f6f9;
+  border-radius: 5px;
+  display: flex;
+  align-items: end;
+}
+
+.downland_left {
+  width: 875px;
+  height: 177px;
+  display: flex;
+
+  margin-left: 20px;
+}
+
+.right_part {
+  width: 600px;
+  height: 84px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-top: 20px;
+}
+
+.right_title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #295093;
+}
+
+.right_sbt {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #333333;
+}
+
+.downland_right {
+  width: 403px;
+  height: 214px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+
+.downland_img {
+  width: 189px;
+}
+
+.footer {
+  width: 100%;
+  height: 225px;
+
+  margin: auto;
+  margin-top: 40px;
+  background-color: #295093;
+}
+
+.footer_above_part {
+  width: 1400px;
+  height: 40px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 28px;
+}
+
+.footer_logo {
+  width: 200px;
+  height: 38px;
+  background-color: #133c82;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 3px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.footer_above_right {
+  display: flex;
+  align-items: center;
+}
+
+.footer_btn {
+  width: 132px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.footer_btn_link {
+  text-decoration: none;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #295093;
+}
+
+.text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.hr2 {
+  width: 1400px;
+  height: 3px;
+  border: none;
+  background-color: #133c82;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.footer_bottom_part {
+  width: 979px;
+  height: 121px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 59px;
+  margin-top: 16px;
+}
+
+.footer_ul {
+  list-style: none;
+}
+
+.footer_text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #ffffff;
+}
+
+.info {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #ffffff;
+  margin-bottom: 10px;
+}
